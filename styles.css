@@ -29,10 +29,9 @@ section.main .video-container{
 
 .container{
     align-items: center;
-    border: 2px solid;
     position: absolute;
     top: 300px;
-    left: 500px;
+    left: 530px;
     font-size: 2rem;
     color: white;
 }
@@ -48,14 +47,39 @@ section.main::after{
     z-index: -2;
 }
 
+.switch{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    padding: 1px;
+    border: 1px solid;  
+    bottom: 10px;  
+    cursor: pointer;
+    left: 20px;
+    color: grey;
+    display: inline-flex;
+    justify-content: space-between;
+    border:rgba(144, 207, 236, 0.918);
+    border-radius: 5px;
+    background-color: white;
+}
 
+.switch span{
+    border: 1px solid;
+    border-radius: 5px;
+}
 
+.switch.on{
+     background-color: linear-gradient(180deg, rgba(99, 5, 5, 0.9));
+}
 
+.switch-play.on{
+    display: none;
+}
 
-
-
-
-
+.switch-pause.on{
+    display: none;
+}
 
 
 
